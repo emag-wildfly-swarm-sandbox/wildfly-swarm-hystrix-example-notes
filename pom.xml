@@ -19,6 +19,7 @@
     <version.wildfly-swarm>1.0.0.Beta7</version.wildfly-swarm>
     <version.jboss.bom>10.0.0.Final</version.jboss.bom>
 
+    <version.hystric>1.5.1</version.hystric>
     <version.maven-war-plugin>2.6</version.maven-war-plugin>
   </properties>
 
@@ -69,6 +70,7 @@
   <modules>
     <module>model</module>
     <module>employee-service</module>
+    <module>payroll-service</module>
   </modules>
 
 </project>
