@@ -1,6 +1,6 @@
 package wildflyswarm.employee.api;
 
-import wildflyswarm.employee.model.Employee;
+import wildflyswarm.model.Employee;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.ws.rs.GET;

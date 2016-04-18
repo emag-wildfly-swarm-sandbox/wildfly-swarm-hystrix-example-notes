@@ -1,4 +1,4 @@
-package wildflyswarm.employee.model;
+package wildflyswarm.model;
 
 public class Employee {
 
@@ -25,4 +25,5 @@ public class Employee {
   public void setName(String name) {
     this.name = name;
   }
+
 }

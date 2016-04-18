@@ -15,6 +15,12 @@
 
   <dependencies>
     <dependency>
+      <groupId>wildflyswarm</groupId>
+      <artifactId>model</artifactId>
+      <version>1.0.0-SNAPSHOT</version>
+    </dependency>
+
+    <dependency>
       <groupId>javax.enterprise</groupId>
       <artifactId>cdi-api</artifactId>
       <scope>provided</scope>
