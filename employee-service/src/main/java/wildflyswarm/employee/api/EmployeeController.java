@@ -13,6 +13,7 @@ import java.util.List;
 @ApplicationScoped
 @Path("/employees")
 public class EmployeeController {
+
   @GET
   @Produces(MediaType.APPLICATION_JSON)
   public List<Employee> findAll() {
@@ -38,4 +39,5 @@ public class EmployeeController {
         add(new Employee(4L, "Linda"));
     }};
   }
+
 }
